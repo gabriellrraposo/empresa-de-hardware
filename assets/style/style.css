@@ -44,6 +44,10 @@ header ul li {
     list-style: none;
 }
 
+header ul li a {
+    color: #000;
+}
+
 header div {
     justify-self: end;
     align-self: center;
@@ -53,12 +57,12 @@ header div {
     grid-gap: 1.5rem;
 }
 
-header div span {
-    font-size: 40px;
+header div i {
+    font-size: 20px;
 }
 
 /* ----- Main ----- */
 
 .banner-apresentacao {
-    
+    margin-bottom: var(--margem-secoes);
 }
