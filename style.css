@@ -4,6 +4,8 @@
 
     box-sizing: border-box;
     text-decoration: none;
+
+    font-family: 'Catamaran', sans-serif;
 }
 
 :root {
@@ -16,7 +18,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    background-color: red;
+    background-color: whitesmoke;
+
+    font-size: 20px;
 }
 
 header nav {
@@ -32,11 +36,9 @@ header div {
 header ul {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
 }
 
 header ul li {
     list-style: none;
-
-    border: solid 1px black;
 }
