@@ -7,28 +7,36 @@
 }
 
 :root {
-    --padding-lateral: 0 10%;
+    --padding-lateral: 10%;
 }
 
 header {
-    padding: var(--padding-lateral);
+    padding: 1% var(--padding-lateral);
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: red;
 }
 
 header nav {
     justify-self: center;
+    align-self: center;
 }
 
 header div {
     justify-self: end;
+    align-self: center;
 }
 
 header ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
 }
 
-header li {
+header ul li {
     list-style: none;
+
+    border: solid 1px black;
 }
