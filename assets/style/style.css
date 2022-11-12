@@ -77,18 +77,38 @@ header div i {
     padding: 0 var(--padding-lateral-maior);
 }
 
+.novidade div {
+    display: flex;
+
+}
+
+.novidade div h2 {
+    font-size: 42px;
+}
+
 .novidade div p {
     width: 90%;
     display: inline-block;
+
+    font-size: 18px;
+
+    margin-bottom: 5%;
 }
 
 .novidade div button {
-    width: 20%;
+    max-width: 25%;
+    padding: 1% 0;
+
+    border-radius: .15rem;
+    border: 1px solid purple;
+    background-color: purple;
+
+    color: white;
+    font-size: 17px;
 }
 
 .texto-novidade {
     width: fit-content;
-    border: 1px solid black;
 
     display: flex;
     flex-direction: column;
@@ -98,7 +118,5 @@ header div i {
     margin-bottom: var(--margin-elementos);
 }
 
-.texto-novidade2, .imagem-novidade1 {
-    justify-self: end;
-}
+
 
