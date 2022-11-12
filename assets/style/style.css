@@ -10,7 +10,10 @@
 
 :root {
     --padding-lateral: 10%;
+    --margem-secoes: 5%;
 }
+
+/* ----- Header ----- */
 
 header {
     padding: 1% var(--padding-lateral);
@@ -21,6 +24,8 @@ header {
     background-color: whitesmoke;
 
     font-size: 20px;
+
+    box-shadow: 0 4px 25px 1px rgba(0, 0, 0, 0.26);
 }
 
 header nav {
@@ -50,4 +55,10 @@ header div {
 
 header div span {
     font-size: 40px;
+}
+
+/* ----- Main ----- */
+
+.banner-apresentacao {
+    
 }
