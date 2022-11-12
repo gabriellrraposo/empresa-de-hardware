@@ -10,7 +10,9 @@
 
 :root {
     --padding-lateral: 10%;
+    --padding-lateral-maior: 20%;
     --padding-secoes: 5%;
+    --margin-elementos: 2.5%;
 }
 
 /* ----- Header ----- */
@@ -62,4 +64,41 @@ header div i {
 }
 
 /* ----- Main ----- */
+
+.novidades {
+    padding: var(--padding-secoes) 0;
+}
+
+.novidade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+
+    padding: 0 var(--padding-lateral-maior);
+}
+
+.novidade div p {
+    width: 90%;
+    display: inline-block;
+}
+
+.novidade div button {
+    width: 20%;
+}
+
+.texto-novidade {
+    width: fit-content;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.novidade1 {
+    margin-bottom: var(--margin-elementos);
+}
+
+.texto-novidade2, .imagem-novidade1 {
+    justify-self: end;
+}
 
