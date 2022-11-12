@@ -12,4 +12,23 @@
 
 header {
     padding: var(--padding-lateral);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header nav {
+    justify-self: center;
+}
+
+header div {
+    justify-self: end;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
 }
