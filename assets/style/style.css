@@ -10,7 +10,7 @@
 
 :root {
     --padding-lateral: 10%;
-    --margem-secoes: 5%;
+    --padding-secoes: 5%;
 }
 
 /* ----- Header ----- */
@@ -63,6 +63,3 @@ header div i {
 
 /* ----- Main ----- */
 
-.banner-apresentacao {
-    margin-bottom: var(--margem-secoes);
-}
