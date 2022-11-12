@@ -28,6 +28,9 @@ header {
     font-size: 20px;
 
     box-shadow: 0 4px 25px 1px rgba(0, 0, 0, 0.26);
+
+    position: sticky;
+    top: 0;
 }
 
 header nav {
@@ -64,6 +67,8 @@ header div i {
 }
 
 /* ----- Main ----- */
+
+/* --- Novidades --- */
 
 .novidades {
     padding: var(--padding-secoes) 0;
