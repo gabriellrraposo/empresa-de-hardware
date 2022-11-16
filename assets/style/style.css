@@ -66,6 +66,10 @@ header div i {
     font-size: 20px;
 }
 
+.container-icones {
+    display: flex;
+}
+
 /* ----- Main ----- */
 
 /* --- Novidades --- */
