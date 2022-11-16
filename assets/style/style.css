@@ -148,3 +148,41 @@ header div i {
     justify-self: end;
 }
 
+/* ----- Footer ----- */
+
+footer {
+    padding: var(--padding-secoes) var(--padding-lateral);
+
+    background-color: whitesmoke;
+
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+
+/* footer section {
+    border: 1px solid black;
+} */
+
+footer section a, footer section i, footer section span {
+    color: black;
+}
+
+footer nav a {
+    font-size: 18px;
+    margin-right: 3%;
+}
+
+footer i {
+    font-size: 20px;
+    margin-right: 1%;
+    margin-top: 1.5%;
+}
+
+footer .parte-superior {
+    margin-bottom: var(--margin-elementos);
+}
+
+footer .parte-inferior a {
+    margin-right: 3%;
+}
