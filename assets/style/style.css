@@ -82,6 +82,10 @@ header div i {
     padding: 0 var(--padding-lateral-maior);
 }
 
+.novidade img {
+    border-radius: 1.5rem;
+}
+
 .novidade div {
     display: flex;
 
@@ -124,4 +128,23 @@ header div i {
 }
 
 
+/* --- Categorias --- */
+
+.categorias {
+    padding: var(--padding-secoes) var(--padding-lateral);
+
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 40px;
+}
+
+.categorias img {
+    aspect-ratio: 1 / 1;
+}
+
+.categoria2, .categoria4 {
+    justify-self: end;
+}
 
