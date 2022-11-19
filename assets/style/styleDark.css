@@ -17,6 +17,7 @@
     --backgroundSecundario: #1A1A1A;
     --backgroundPrimario: #1E1E1E;
     --corCaracteres: #fff;
+    --roxo: #8e31ff;
 }
 
 body {
@@ -26,6 +27,10 @@ body {
 
 i, button {
     cursor: pointer;
+}
+
+i:hover, a:hover {
+    color: var(--roxo);
 }
 
 /* ----- Header ----- */
@@ -139,8 +144,8 @@ header div i {
     padding: 1% 0;
 
     border-radius: .15rem;
-    border: 1px solid purple;
-    background-color: purple;
+    border: 1px solid var(--roxo);
+    background-color: var(--roxo);
 
     color: white;
     font-size: 17px;
