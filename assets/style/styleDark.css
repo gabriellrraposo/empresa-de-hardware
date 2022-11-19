@@ -7,6 +7,8 @@
 
     font-family: 'Catamaran', sans-serif;
     color: var(--corCaracteres);
+
+    scroll-behavior: smooth;
 }
 
 :root {
