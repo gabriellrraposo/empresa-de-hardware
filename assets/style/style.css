@@ -23,7 +23,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    background-color: whitesmoke;
+    background-color: #f3f3f3;
 
     font-size: 20px;
 
@@ -89,10 +89,6 @@ header div i {
 
 /* --- Novidades --- */
 
-.novidades {
-    padding: var(--padding-secoes) 0;
-}
-
 .novidade {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -143,7 +139,14 @@ header div i {
 }
 
 .novidade1 {
-    margin-bottom: var(--margin-elementos);
+    background-color: #f3f3f3;
+    padding-top: var(--padding-secoes);
+    padding-bottom: var(--padding-secoes);
+}
+
+.novidade2 {
+    padding-top: var(--padding-secoes);
+    padding-bottom: var(--padding-secoes);
 }
 
 
@@ -172,7 +175,7 @@ header div i {
 footer {
     padding: var(--padding-secoes) var(--padding-lateral);
 
-    background-color: whitesmoke;
+    background-color: #f3f3f3;
 
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
