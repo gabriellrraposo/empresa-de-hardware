@@ -6,6 +6,7 @@
     text-decoration: none;
 
     font-family: 'Catamaran', sans-serif;
+    color: var(--corCaracteres);
 }
 
 :root {
@@ -20,6 +21,10 @@
 
 body {
     background-color: var(--backgroundPrimario);
+}
+
+i, button {
+    cursor: pointer;
 }
 
 /* ----- Header ----- */
