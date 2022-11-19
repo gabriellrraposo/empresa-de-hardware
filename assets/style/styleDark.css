@@ -86,13 +86,15 @@ header div i {
     background-repeat: no-repeat;
     background-size: cover;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
 }
 
 .banner-apresentacao h1 {
     color: white;
-    position: relative;
-    top: 50%;
 }
 
 /* --- Novidades --- */
