@@ -6,6 +6,7 @@
     text-decoration: none;
 
     font-family: 'Catamaran', sans-serif;
+    color: var(--corCaracteres);
 }
 
 :root {
@@ -13,9 +14,9 @@
     --padding-lateral-maior: 20%;
     --padding-secoes: 5%;
     --margin-elementos: 2.5%;
-    --backgroundSecundario: #f3f3f3;
-    --backgroundPrimario: #ffffff;
-    --corCaracteres: #000;
+    --backgroundSecundario: #1A1A1A;
+    --backgroundPrimario: #1E1E1E;
+    --corCaracteres: #fff;
 }
 
 body {
