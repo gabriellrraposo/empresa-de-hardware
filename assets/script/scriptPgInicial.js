@@ -33,6 +33,3 @@ let mudaTema = () => {
         logo[1].setAttribute("width", "120px")
     }
 }
-
-
-
