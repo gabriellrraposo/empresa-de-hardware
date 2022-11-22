@@ -253,6 +253,12 @@ footer .parte-inferior a {
     }
 }
 
+@media screen and (max-width: 1214px) {
+    .sede img {
+        width: 450px;
+    }
+}
+
 @media screen and (max-width: 1164px) {
     header {
         grid-template-columns: auto;
@@ -274,3 +280,20 @@ footer .parte-inferior a {
         margin-right: 3%;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .contate-nos {
+        flex-direction: column;
+    }
+
+    .sede {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .sede img {
+        width: 100%;
+        margin-top: 10%;
+    }
+}
+
