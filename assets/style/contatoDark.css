@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: 'Catamaran', sans-serif;
+    color: var(--corCaracteres);
+
+    scroll-behavior: smooth;
+}
+
+:root {
+    --padding-lateral: 10%;
+    --padding-lateral-maior: 20%;
+    --padding-secoes: 5%;
+    --margin-elementos: 2.5%;
+    --backgroundSecundario: #1A1A1A;
+    --backgroundPrimario: #1E1E1E;
+    --corCaracteres: #fff;
+    --roxo: #8e31ff;
+}
+
+body {
+    background-color: var(--backgroundPrimario);
+}
+
+i, button {
+    cursor: pointer;
+}
+
+i:hover, a:hover {
+    color: var(--roxo);
+}
+
+/* ----- Header ----- */
+
+header {
+    padding: 1% var(--padding-lateral);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: var(--backgroundSecundario);
+
+    font-size: 20px;
+
+    position: sticky;
+    top: 0;
+}
+
+header nav {
+    justify-self: center;
+    align-self: center;
+}
+
+
+header ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 4rem;
+}
+
+header ul li {
+    list-style: none;
+    width: 120px;
+}
+
+header ul li a {
+    color: var(--corCaracteres);
+}
+
+header div {
+    justify-self: end;
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+header div i {
+    font-size: 20px;
+}
+
+.container-icones {
+    display: flex;
+}
+
+/* Main */
+
+.contate-nos {
+    padding: 0 var(--padding-lateral-maior);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-contato {
+    text-align: center;
+    margin: var(--padding-secoes) 0;
+}
+
+.texto-contato h2 {
+    font-size: 35px;
+}
+
+.texto-contato span {
+    font-size: 18px;
+}
+
+.contate-nos form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.contate-nos form input, .contate-nos form textarea, .contate-nos form label {
+    width: 100%;
+}
+
+.contate-nos form input {
+    height: 35px;
+    border: none;
+    border-bottom: black solid 1px;
+
+    margin-bottom: 3%;
+}
+
+.contate-nos form input:focus {
+    outline: none;
+    border-bottom: #5903c2 2px solid;
+}
+
+.fale-conosco {
+    margin-top: var(--margin-elementos);
+    text-align: center;
+}
+
+.fale-conosco span {
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.fale-conosco h2 {
+    font-size: 35px;
+}
+
+.fale-conosco div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.233);
+    margin-top: 15%;
+    padding: 15% 20px;
+    width: 100%;
+
+    background-color: var(--backgroundSecundario);
+}
+
+.fale-conosco i {
+    font-size: 70px;
+}
+
+.sede {
+    padding: var(--padding-secoes) var(--padding-lateral-maior);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sede .texto-sede {
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+}
+
+.texto-sede h2 {
+    font-size: 35px;
+}
+
+.texto-sede span {
+    font-size: 20px;
+}
+
+.texto-sede i {
+    margin-top: 10%;
+    
+    font-size: 30px;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    padding: var(--padding-secoes) var(--padding-lateral);
+
+    background-color: var(--backgroundSecundario);
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+}
+
+footer section a, footer section i, footer section span {
+    color: var(--corCaracteres);
+}
+
+footer nav a {
+    font-size: 18px;
+    margin-right: 3%;
+}
+
+footer i {
+    font-size: 20px;
+    margin-right: 1%;
+    margin-top: 1.5%;
+}
+
+footer .parte-superior {
+    margin-bottom: var(--margin-elementos);
+}
+
+footer .parte-inferior a {
+    margin-right: 3%;
+}
+
+
+.container-seta {
+    text-align: right;
+}
+
+.fa-arrow-up {
+    font-size: 35px;
+}
+
+
+/* Responsividade */
+
+/* Header */
+
+@media screen and (max-width: 1538px) {
+    :root {
+        --padding-lateral-maior: 15%;
+    }
+}
+
+@media screen and (max-width: 1354px) {
+    :root {
+        --padding-lateral-maior: 10%;
+    }
+}
+
+@media screen and (max-width: 1164px) {
+    header {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+
+        grid-gap: 20px;
+    }
+
+    header img, header .container-icones {
+        justify-self: center;
+    }
+
+    footer {
+        grid-gap: 50px;
+    }
+
+    footer i {
+        margin-right: 3%;
+    }
+}
