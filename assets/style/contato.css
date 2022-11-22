@@ -134,8 +134,13 @@ header div i {
 }
 
 .fale-conosco {
-    margin: var(--padding-secoes) 0;
+    margin-top: var(--margin-elementos);
     text-align: center;
+}
+
+.fale-conosco span {
+    font-size: 20px;
+    margin-top: 10%;
 }
 
 .fale-conosco h2 {
@@ -149,7 +154,7 @@ header div i {
 
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.233);
     margin-top: 15%;
-    padding: 50px 30px;
+    padding: 15% 20px;
     width: 100%;
 
     background-color: var(--backgroundSecundario);
@@ -160,7 +165,31 @@ header div i {
 }
 
 .sede {
-    padding: 0 var(--padding-lateral);
+    padding: var(--padding-secoes) var(--padding-lateral-maior);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sede .texto-sede {
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+}
+
+.texto-sede h2 {
+    font-size: 35px;
+}
+
+.texto-sede span {
+    font-size: 20px;
+}
+
+.texto-sede i {
+    margin-top: 10%;
+    
+    font-size: 30px;
 }
 
 /* ----- Footer ----- */
