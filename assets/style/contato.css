@@ -91,10 +91,10 @@ header div i {
 /* Main */
 
 .contate-nos {
-    padding: 0 var(--padding-lateral);
+    padding: 0 var(--padding-lateral-maior);
 
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .texto-contato {
@@ -114,11 +114,10 @@ header div i {
     display: flex;
     flex-direction: column;
     align-self: center;
-    width: 100%;
 }
 
 .contate-nos form input, .contate-nos form textarea, .contate-nos form label {
-    width: 30%;
+    width: 100%;
 }
 
 .contate-nos form input {
@@ -134,7 +133,31 @@ header div i {
     border-bottom: #5903c2 2px solid;
 }
 
+.fale-conosco {
+    margin: var(--padding-secoes) 0;
+    text-align: center;
+}
 
+.fale-conosco h2 {
+    font-size: 35px;
+}
+
+.fale-conosco div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.233);
+    margin-top: 15%;
+    padding: 50px 30px;
+    width: 100%;
+
+    background-color: var(--backgroundSecundario);
+}
+
+.fale-conosco i {
+    font-size: 70px;
+}
 
 .sede {
     padding: 0 var(--padding-lateral);
