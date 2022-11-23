@@ -6,6 +6,7 @@ let btnCpu = document.getElementById("btnCpu")
 let mostraGpu = () => {
     Gpu.style.display = "grid"
     btnGpu.style.backgroundColor = "var(--roxo)"
+    btnGpu.style.borderColor = "var(--roxo)"
     btnGpu.style.color = "var(--backgroundPrimario)"
     
     Cpu.style.display = "none"
@@ -16,6 +17,7 @@ let mostraGpu = () => {
 let mostraCpu = () => {
     Cpu.style.display = "grid"
     btnCpu.style.backgroundColor = "var(--roxo)"
+    btnCpu.style.borderColor = "var(--roxo)"
     btnCpu.style.color = "var(--backgroundPrimario)"
 
     Gpu.style.display = "none"
