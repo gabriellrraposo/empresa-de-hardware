@@ -3,6 +3,10 @@ let Cpu = document.getElementById("processador")
 let btnGpu = document.getElementById("btnGpu")
 let btnCpu = document.getElementById("btnCpu")
 
+onload = (callback) => {
+    mostraGpu()
+}
+
 let mostraGpu = () => {
     Gpu.style.display = "grid"
     btnGpu.style.backgroundColor = "var(--roxo)"
