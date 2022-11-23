@@ -64,7 +64,6 @@ header ul {
 
 header ul li {
     list-style: none;
-    width: 120px;
 }
 
 header ul li a {
@@ -237,8 +236,6 @@ footer .parte-inferior a {
 
 
 /* Responsividade */
-
-/* Header */
 
 @media screen and (max-width: 1538px) {
     :root {
