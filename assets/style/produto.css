@@ -112,10 +112,10 @@ main > div button {
     font-size: 1rem;
 }
 
-main > div button:hover {
+/* main > div button:hover {
     background-color: var(--roxo);
     color: var(--backgroundPrimario);
-}
+} */
 
 main section {
     display: grid;
@@ -150,7 +150,7 @@ main section div div p {
     font-size: 19px;
 }
 
-.processador {
+#processador {
     display: none;
 }
 
