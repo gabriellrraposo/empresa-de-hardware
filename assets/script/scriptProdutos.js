@@ -12,6 +12,7 @@ let mostraGpu = () => {
     Cpu.style.display = "none"
     btnCpu.style.backgroundColor = "transparent"
     btnCpu.style.color = "var(--corCaracteres)"
+    btnCpu.style.borderColor = "var(--corCaracteres)"
 }
 
 let mostraCpu = () => {
@@ -23,6 +24,7 @@ let mostraCpu = () => {
     Gpu.style.display = "none"
     btnGpu.style.backgroundColor = "transparent"
     btnGpu.style.color = "var(--corCaracteres)"
+    btnGpu.style.borderColor = "var(--corCaracteres)"
 }
 
 let hoverBotoes = (element) => {
