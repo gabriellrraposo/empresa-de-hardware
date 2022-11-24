@@ -273,6 +273,8 @@ footer .parte-inferior a {
         justify-content: center;
 
         grid-gap: 20px;
+
+        padding: 5% var(--padding-lateral);
     }
 
     header img, header .container-icones {
