@@ -98,10 +98,22 @@ header div i {
     background-size: cover;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     text-align: center;
+}
+
+.banner-apresentacao h2 {
+    color: #fff;
+    width: 45%;
+}
+
+.banner-apresentacao h1 {
+    font-size: 1.7rem;
+
+    margin-bottom: 5rem;
 }
 
 .banner-apresentacao h1 {
