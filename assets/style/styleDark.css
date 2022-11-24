@@ -91,17 +91,32 @@ header div i {
 
 .banner-apresentacao {
     width: 100%;
-    height: 690px;
+    height: 800px;
 
     background-image: url("../imagens/bannerPorDoSol.png");
     background-repeat: no-repeat;
     background-size: cover;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     text-align: center;
+}
+
+.banner-apresentacao p {
+    color: #fff;
+    width: 55%;
+
+    font-size: 1.3rem;
+}
+
+.banner-apresentacao h1 {
+    font-size: 2.8rem;
+    width: 50%;
+
+    margin-bottom: 2.5rem;
 }
 
 .banner-apresentacao h1 {
