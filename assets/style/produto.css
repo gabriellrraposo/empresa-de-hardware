@@ -128,7 +128,10 @@ main section div {
 }
 
 main section div img {
-    width: 200px;
+    max-width: 200px;
+    height: max-content;
+
+    align-self: center;
 }
 
 main section div div {
@@ -214,6 +217,13 @@ footer .parte-inferior a {
     }
 }
 
+@media screen and (max-width: 1216px) {
+    main section div div p {
+        width: 90%;
+        font-size: 19px;
+    }
+}
+
 @media screen and (max-width: 1164px) {
     header {
         grid-template-columns: auto;
@@ -235,5 +245,56 @@ footer .parte-inferior a {
 
     footer i {
         margin-right: 3%;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    main section div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main section div img {
+        max-width: 200px;
+        height: max-content;
+    
+        align-self: center;
+    }
+
+    main section div div {
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    main section div div p {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .botoes-produtos {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .botoes-produtos button {
+        width: 10rem;
+    }
+
+    main section div img {
+        max-width: 150px;
+        
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .botoes-produtos button {
+        width: 7rem;
+        font-size: .8rem;
     }
 }

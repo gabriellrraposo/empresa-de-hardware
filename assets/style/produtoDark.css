@@ -128,7 +128,10 @@ main section div {
 }
 
 main section div img {
-    width: 200px;
+    max-width: 200px;
+    height: max-content;
+
+    align-self: center;
 }
 
 main section div div {
@@ -237,3 +240,4 @@ footer .parte-inferior a {
         margin-right: 3%;
     }
 }
+
